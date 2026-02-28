@@ -1,38 +1,325 @@
-0,CombatZoneResize,241,226,406,391,,,,
-0,HeartTeleport,320,304,,,,,,
-0,CombatZoneSpeed,480,,,,,,,
-0,HeartMode,7,,,,,,,
-0,sound,ding,,,,,,,
-0,SET,Loop,8,,,,,,
-0,SUB,Loop,$Loop,1,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-0,GetHeartPos,HeartX,HeartY,,,,,,
-0,GasterBlaster,0,0,0,$HeartX,166,90,0.5,0.2
-0,GetHeartPos,HeartX,HeartY,,,,,,
-0,GasterBlaster,2,0,0,181,$HeartY,0,0.5,0.2
-1.5,JMPNZ,7,$Loop,,,,,,
-2,EndAttack,,,,,,,,
-0,SANSHEAD,noeyes,,,,,,,
-0.6,SET,Loop,999,,,,,,
-0,SUB,Loop,$Loop,1,,,,,
-0,GasterBlaster,1,-40,450,625,450,180,0.6,0.23333
-2,JMPNZ,36,$Loop,,,,,,
+0,SansLegs,Sitting
+0,SansTorso,Sitting
+0,SansText,"you know what imma make the attack long!"
+1,SansText,"and guess what you cant do anything about it Memes And LOLZ....."
+0,SansText,"More Cringe Dialoge"
+0.5,SansText,"And best of all i took all the souls. no refunds LOl"
+0.5,SansHead,NoEyes
+0,CombatZoneResizeInstant,239,226,404,391
+0,HeartMode,3
+0,HeartTeleport,310,304
+2,BlackScreen,1
+1,BlackScreen,0
+0,Sound,Flash
+0,CombatZoneResizeInstant,250,250,400,400
+0,BoneStab,0,45,2,5
+0,BoneStab,1,45,2,5
+0,BoneStab,2,45,2,5
+0,BoneStab,3,45,2,5
+0.75,GasterBlaster,2,200,10,340,160,90,0,0.2
+1.5,SansText,"heh. your fingers must hurt"
+0,SansHead,Wink
+5,GasterBlaster,1,200,40,470,270,180,0.2,0.6
+0,GasterBlaster,1,200,40,470,380,180,0.2,0.6
+0,GasterBlaster,1,200,40,260,190,90,0.2,0.6
+0,GasterBlaster,1,200,40,390,190,90,0.2,0.6
+0.2,SansTorso,Shrug
+0,HeartMode,3
+0,HeartMode,1
+0,Sound,Flash
+1,BlackScreen,1
+1,BlackScreen,0
+0,GasterBlaster,0,0,0,425,306,180,0.333,0.26666
+0,PlatformRepeat,552,346,51,2,120,12,140
+0.4,BoneVRepeat,128,360,45,0,150,12,133,3
+0.8,BlackScreen,1
+0,Sound,Flash
+0.77777,BlackScreen,0
+0,CombatZoneResize,133,251,508,391
+0,HeartTeleport,320,376
+0,HeartMode,4
+1,SansTorso,Default
+0.5,BoneVRepeat,128,366,20,0,120,8,76,5
+7.2,SansBody,HandUp
+0,SansSlam,3
+0.2,GasterBlaster,1,200,10,372,400,270,0,5
+5.5,SansBody,HandDown
+1.1,BlackScreen,1
+0.26666,SansSlam,1
+0,Sound,Flash
+0.06666,BlackScreen,0
+0,CombatZoneResizeInstant,113,231,548,391
+0,HeartTeleport,320,376
+0,BoneStab,0,50,0.7,0.3
+0,GasterBlaster,1,100,0,451,392,210,0.366,0.1,2
+2,ScreenFlash,1
+1,ScreenFlash,0
+0.5,SansText,"and this is only getting"
+0,SansText,"Harder from here"
+0,SansText,"BE GONE"
+0,SansText,"its finnaly time"
+0,SansText,"to show my True COLOURS"
+0,SansText,"Its the end i guess"
+0,SansText,"NOO i can't let this happen"
+0,SansText,"BUT it refused"
+0,SansText,"you used ledengary hero you gained 40 hp and 4+ attack"
+0,SansText,"so lets get this over with"
+0,SansText,"You WANT a bad time"
+0,StopMusic
+0,SetMaxHP,200
+0,DamagePlayer,-100
+2,Sound,PlayerFight,1
+0.25,SansText,"...?"
+0,SansText,"reset chararcter."
+0,SansText,"now you will face out your consequences..."
+0,BlackScreen,1
+1,BlackScreen,0
+0,SansText,"you really thought it would be that easy?"
+0,SansHead,Grin
+0.5,SansText,"this is where the REAL fight begins."
+0,Sound,Flash
+0,HeartMode,2
+0,CombatZoneResizeInstant,180,220,460,420
+0,BoneRain,0,120,6,4
+1.2,BoneRain,1,120,6,4
+0.8,GasterBlaster,1,180,20,300,150,90,0.1,0.4
+0.2,GasterBlaster,1,180,20,420,150,90,0.1,0.4
+0.2,GasterBlaster,1,180,20,360,420,270,0.1,0.4
+1.5,SansText,"keep dodging."
+0,SansHead,Wink
+0.5,BoneStab,0,60,1.2,0.6
+0.5,BoneStab,1,60,1.2,0.6
+0.5,BoneStab,2,60,1.2,0.6
+0.5,BoneStab,3,60,1.2,0.6
+1,ScreenShake,2,0.5
+0,Sound,Flash
+0.5,BlackScreen,1
+0.5,BlackScreen,0
+0,SansText,"getting tired?"
+0,HeartMode,3
+0,HeartTeleport,320,300
+0,PlatformRepeat,520,360,40,2,100,10,120
+0.3,BoneVRepeat,150,370,30,0,130,10,100,4
+0.6,BoneVRepeat,450,370,30,0,130,10,100,4
+1.2,GasterBlaster,2,220,15,320,200,180,0.2,0.5
+2,SansText,"too bad."
+0,SansBody,HandUp
+0.2,SansSlam,3
+0.4,GasterBlaster,1,220,25,320,460,270,0.2,0.7
+2,SansBody,HandDown
+0,Sound,Flash
+1,BlackScreen,1
+0.2,BlackScreen,0
+0,SansText,"you just don't quit."
+0,SansHead,NoEyes
+0.5,SansText,"fine then."
+0,HeartMode,4
+0,CombatZoneResizeInstant,120,240,520,400
+0,BoneWave,0,90,8,3
+1,BoneWave,1,90,8,3
+1,GasterBlaster,1,250,30,200,300,0,0.3,0.8
+0.2,GasterBlaster,1,250,30,440,300,180,0.3,0.8
+1.5,ScreenFlash,1
+0.5,ScreenFlash,0
+0,SansText,"let's raise the stakes."
+0,SetPlayerSpeed,1.5
+0,BoneRain,2,150,7,5
+2,GasterBlaster,2,300,40,320,240,90,0.2,1
+1,SansText,"still alive?"
+0,SansHead,Grin
+0.5,Sound,Flash
+0,BlackScreen,1
+1,BlackScreen,0
+0,SansText,"you're still standing?"
+0,SansHead,Grin
+0.5,SansText,"guess i'll have to try harder."
+0,HeartMode,1
+0,CombatZoneResizeInstant,150,260,490,410
+0,BoneVRepeat,120,380,25,0,140,9,90,6
+0.4,BoneVRepeat,520,380,25,0,140,9,90,6
+0.8,GasterBlaster,1,260,35,160,200,45,0.2,0.6
+0.2,GasterBlaster,1,260,35,480,200,135,0.2,0.6
+1.5,BoneRain,3,170,8,6
+2,ScreenShake,3,0.6
+0,SansBody,HandUp
+0.2,SansSlam,3
+0.3,GasterBlaster,2,320,480,270,0,0.3,1
+2,SansBody,HandDown
+0,Sound,Flash
+1,BlackScreen,1
+0.2,BlackScreen,0
+0,SansText,"your dodging is improving."
+0,SansText,"that just makes this more fun."
+0,SetPlayerSpeed,1.8
+0,HeartMode,3
+0,CombatZoneResizeInstant,100,230,540,420
+0,BoneWave,2,110,10,4
+0.8,BoneWave,3,110,10,4
+1,GasterBlaster,1,280,40,200,160,60,0.1,0.5
+0.2,GasterBlaster,1,280,40,440,160,120,0.1,0.5
+0.2,GasterBlaster,1,280,40,320,440,270,0.1,0.5
+1.5,BoneStab,0,70,1.5,0.8
+0.2,BoneStab,1,70,1.5,0.8
+0.2,BoneStab,2,70,1.5,0.8
+0.2,BoneStab,3,70,1.5,0.8
+2,SansText,"keep up."
+0,ScreenFlash,1
+0.3,ScreenFlash,0
+0,SansHead,NoEyes
+0,SansText,"alright."
+0,SansText,"no more games."
+0,StopMusic
+1,Sound,Flash
+0,SetMusic,RageTheme
+0,HeartMode,4
+0,CombatZoneResizeInstant,80,210,560,430
+0,BoneRain,4,200,10,8
+1,GasterBlaster,2,320,200,90,0.2,0.7
+0.5,GasterBlaster,2,320,200,0,0.2,0.7
+0.5,GasterBlaster,2,320,200,180,0.2,0.7
+1.2,ScreenShake,4,1
+0,SansBody,HandUp
+0.2,SansSlam,3
+0.4,BoneWave,4,140,12,6
+2,SansBody,HandDown
+1,SansText,"try surviving this."
+0,SetPlayerSpeed,2.2
+0,HeartMode,2
+0,BoneVRepeat,100,360,35,0,180,12,120,8
+0.3,BoneVRepeat,540,360,35,0,180,12,120,8
+0.6,GasterBlaster,1,300,50,160,240,0,0.1,0.4
+0.1,GasterBlaster,1,300,50,480,240,180,0.1,0.4
+0.1,GasterBlaster,1,300,50,320,120,90,0.1,0.4
+0.1,GasterBlaster,1,300,50,320,420,270,0.1,0.4
+1.5,ScreenFlash,1
+0.2,ScreenFlash,0
+0,SansText,"why."
+0,SansText,"won't."
+0,SansText,"you."
+0,SansText,"DIE."
+2,DamagePlayer,-30
+0,SansHead,Grin
+0,SansHead,NoEyes
+0,SansText,"..."
+1,SansText,"you broke the script."
+0,ScreenShake,6,1.2
+0,SetPlayerSpeed,2.8
+0,HeartMode,4
+0,CombatZoneResizeInstant,50,200,590,440
+0,BoneRain,5,260,14,10
+0.3,GasterBlaster,2,320,240,0,0.1,0.5
+0.1,GasterBlaster,2,320,240,90,0.1,0.5
+0.1,GasterBlaster,2,320,240,180,0.1,0.5
+0.1,GasterBlaster,2,320,240,270,0.1,0.5
+1,ScreenFlash,1
+0.2,ScreenFlash,0
+0,CombatZoneResizeInstant,200,260,440,380
+0.2,CombatZoneResizeInstant,80,210,560,430
+0.2,CombatZoneResizeInstant,150,240,490,410
+0.2,CombatZoneResizeInstant,50,200,590,440
+1,SansText,"good luck."
+0,HeartMode,3
+0,HeartTeleport,320,240
+0,SetPlayerSpeed,3.2
+0,PlatformRepeat,600,400,60,3,200,15,200
+0.3,HeartTeleport,100,300
+0.3,HeartTeleport,540,300
+0.3,HeartTeleport,320,100
+0.3,HeartTeleport,320,420
+0,BoneVRepeat,100,360,45,0,200,15,160,10
+0.2,BoneVRepeat,540,360,45,0,200,15,160,10
+0.5,GasterBlaster,1,350,60,100,240,0,0.05,0.3
+0.05,GasterBlaster,1,350,60,540,240,180,0.05,0.3
+0.05,GasterBlaster,1,350,60,320,60,90,0.05,0.3
+0.05,GasterBlaster,1,350,60,320,420,270,0.05,0.3
+1.2,ScreenShake,8,1.5
+0,SansText,"WHERE ARE YOU GOING."
+0,SetMusic,ChaosTheme
+0,SetPlayerSpeed,4
+0,HeartMode,4
+0,CombatZoneResizeInstant,0,180,640,460
+0,BoneRain,6,300,18,14
+0.2,BoneWave,5,160,16,10
+0.2,BoneWave,6,160,16,10
+0.2,BoneWave,7,160,16,10
+0.4,GasterBlaster,2,320,240,0,0.05,0.2
+0.05,GasterBlaster,2,320,240,45,0.05,0.2
+0.05,GasterBlaster,2,320,240,90,0.05,0.2
+0.05,GasterBlaster,2,320,240,135,0.05,0.2
+0.05,GasterBlaster,2,320,240,180,0.05,0.2
+0.05,GasterBlaster,2,320,240,225,0.05,0.2
+0.05,GasterBlaster,2,320,240,270,0.05,0.2
+0.05,GasterBlaster,2,320,240,315,0.05,0.2
+1.5,ScreenFlash,1
+0.1,ScreenFlash,0
+0,SansSlam,3
+0.2,SansSlam,3
+0.2,SansSlam,3
+2,SansText,"YOU WANTED A BAD TIME."
+0,SetPlayerSpeed,5
+0,HeartMode,2
+0,CombatZoneResizeInstant,100,220,540,420
+0.2,CombatZoneResizeInstant,200,260,440,380
+0.2,CombatZoneResizeInstant,50,200,590,440
+0.2,CombatZoneResizeInstant,150,240,490,410
+0.2,CombatZoneResizeInstant,0,180,640,460
+0,BoneRain,8,400,25,20
+0.5,GasterBlaster,2,320,240,0,0.02,0.1
+0.02,GasterBlaster,2,320,240,30,0.02,0.1
+0.02,GasterBlaster,2,320,240,60,0.02,0.1
+0.02,GasterBlaster,2,320,240,90,0.02,0.1
+0.02,GasterBlaster,2,320,240,120,0.02,0.1
+0.02,GasterBlaster,2,320,240,150,0.02,0.1
+0.02,GasterBlaster,2,320,240,180,0.02,0.1
+0.02,GasterBlaster,2,320,240,210,0.02,0.1
+0.02,GasterBlaster,2,320,240,240,0.02,0.1
+0.02,GasterBlaster,2,320,240,270,0.02,0.1
+0.02,GasterBlaster,2,320,240,300,0.02,0.1
+0.02,GasterBlaster,2,320,240,330,0.02,0.1
+2,ScreenShake,10,2
+1,SansText,"this never ends."
+5,LoopPhase,11
+0,SansHead,NoEyes
+0,SansText,"let's spin."
+0,SetPlayerSpeed,3.5
+0,HeartMode,4
+0,CombatZoneResizeInstant,0,180,640,460
+0,ScreenShake,4,0.6
+
+0,GasterBlaster,2,320,240,0,0.05,0.4
+0.05,GasterBlaster,2,320,240,30,0.05,0.4
+0.05,GasterBlaster,2,320,240,60,0.05,0.4
+0.05,GasterBlaster,2,320,240,90,0.05,0.4
+0.05,GasterBlaster,2,320,240,120,0.05,0.4
+0.05,GasterBlaster,2,320,240,150,0.05,0.4
+0.05,GasterBlaster,2,320,240,180,0.05,0.4
+0.05,GasterBlaster,2,320,240,210,0.05,0.4
+0.05,GasterBlaster,2,320,240,240,0.05,0.4
+0.05,GasterBlaster,2,320,240,270,0.05,0.4
+0.05,GasterBlaster,2,320,240,300,0.05,0.4
+0.05,GasterBlaster,2,320,240,330,0.05,0.4
+
+1,LoopBlasterRing,320,240,15,6
+6,SansText,"..."
+0,SansText,"switch."
+0,ScreenFlash,1
+0.1,ScreenFlash,0
+0,SetPlayerSpeed,4.2
+0,CombatZoneResizeInstant,100,220,540,420
+
+0,GasterBlaster,2,320,240,15,0.03,0.3
+0.03,GasterBlaster,2,320,240,45,0.03,0.3
+0.03,GasterBlaster,2,320,240,75,0.03,0.3
+0.03,GasterBlaster,2,320,240,105,0.03,0.3
+0.03,GasterBlaster,2,320,240,135,0.03,0.3
+0.03,GasterBlaster,2,320,240,165,0.03,0.3
+0.03,GasterBlaster,2,320,240,195,0.03,0.3
+0.03,GasterBlaster,2,320,240,225,0.03,0.3
+0.03,GasterBlaster,2,320,240,255,0.03,0.3
+0.03,GasterBlaster,2,320,240,285,0.03,0.3
+0.03,GasterBlaster,2,320,240,315,0.03,0.3
+0.03,GasterBlaster,2,320,240,345,0.03,0.3
+
+1,LoopBlasterRingReverse,320,240,30,6
+6,SansText,"keep up."
+1,EndAttack,,,
